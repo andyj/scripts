@@ -22,7 +22,7 @@ $ cd myFirstLuceeDocker/
 Thats it essentially, at this point we can just build and run this via
 
 ```
-$ docker build -t lucee-server.
+$ docker build -t lucee-server .
 $ docker run lucee-server
 ```
 
@@ -34,7 +34,7 @@ $ docker ps -l
 
 and you should see something like this which gives you the container ID, Name and it also shows you what ports are exposed. 
 
-{<2>}![alt text](/content/images/2016/05/Screenshot-2016-05-26-15-50-08.png)
+![docker ps -l example](http://www.andyjarrett.co.uk/content/images/2016/05/Screenshot-2016-05-26-15-50-08.png)
 
 The problem is you cannot connect to this box. To do that you need to tell your machine to connect to the container and you do that be defining which port to connect on. 
 
