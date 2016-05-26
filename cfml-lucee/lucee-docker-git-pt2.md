@@ -2,6 +2,17 @@ Getting Lucee, Docker and your local git repos working together.
 
 This is part 2, if you're just getting in to Docker please read pt1 first. This post will follow on from that setup to give you a working (for local dev) container.
 
+##### Forke me!
+I've put these posts in to my [scripts](https://github.com/andyj/scripts) project on Github.
+
+* [https://github.com/andyj/scripts/blob/master/cfml-lucee/lucee-docker-git-pt1.md](https://github.com/andyj/scripts/blob/master/cfml-lucee/lucee-docker-git-pt1.md)
+* [https://github.com/andyj/scripts/blob/master/cfml-lucee/lucee-docker-git-pt2.md](https://github.com/andyj/scripts/blob/master/cfml-lucee/lucee-docker-git-pt2.md)
+
+If you have changes then please send pull-requests!
+
+#### On to the post
+
+
 To recap, our server is working with code loaded in to the container during the **docker build** but does this mean that when we make a change we have to re-build, re-run and reload the browser to see our changes.
 
 ###### Setting up your local environment
